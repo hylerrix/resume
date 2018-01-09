@@ -1,8 +1,8 @@
 @import "../../node_modules/compass-mixins/lib/compass/reset";
 @import "../../node_modules/compass-mixins/lib/compass/css3";
-$color-blue: #1ea4d9;
+$color-blue: #2C3887;
 $color-gray: #d1d1d1;
-$color-green: #00b38a;
+$color-green: #006047;
 $font-family: 'Helvetica Neue', Helvetica, Arial, "Microsoft YaHei", sans-serif;
 
 .kill-ie {
@@ -70,7 +70,7 @@ a {
   width: 100%;
   padding: 30px 50px;
   color: #fff;
-  background-color: $color-blue;
+  background-color: $color-green;
   overflow: hidden;
   @media screen and (max-width: 720px) {
     padding: 25px 30px;
@@ -78,7 +78,7 @@ a {
 
   .title {
     width: 100%;
-    border-bottom: 2px solid darken($color-blue, 2%);
+    border-bottom: 2px solid darken($color-green, 2%);
     font-size: 52px;
     font-weight: 300;
     overflow: hidden;
@@ -136,7 +136,7 @@ a {
       display: inline-block;
       font-size: 24px;
       @media screen and (max-width: 720px) {
-        border-top: 1px solid darken($color-blue, 2%);
+        border-top: 1px solid darken($color-green, 2%);
         margin: 5px auto 0;
         padding: 10px;
       }
@@ -289,7 +289,7 @@ a {
     font-weight: 500;
 
     .iconfont {
-      color: $color-blue;
+      color: $color-green;
     }
 
     .item-time {
@@ -316,8 +316,6 @@ a {
     .item-name {
       display: inline-block;
       float: left;
-      font-size: 1.2rem;
-      line-height: 1.6rem;
     }
   }
 
@@ -331,7 +329,7 @@ a {
     line-height: 1.7rem;
 
     .iconfont {
-      color: $color-blue;
+      color: $color-green;
     }
 
     em {
@@ -398,9 +396,9 @@ a {
 .btn {
   display: inline-block;
   padding: 0 5px;
-  border: 1px solid $color-blue;
+  border: 1px solid $color-green;
   border-radius: 3px;
-  color: $color-blue;
+  color: $color-green;
   font-family: Menlo, $font-family;
   font-size: 14px;
   line-height: 18px;
@@ -408,7 +406,7 @@ a {
 
   &:hover {
     color: #fff;
-    background-color: $color-blue;
+    background-color: $color-green;
   }
 }
 
@@ -424,7 +422,7 @@ a {
   color: #fff;
   font-size: 16px;
   line-height: 26px;
-  background-color: $color-blue;
+  background-color: $color-green;
   @media screen and (max-width: 1246px) {
     left: auto;
     right: 8px;
@@ -437,7 +435,7 @@ footer {
 
   .footer-link {
     display: inline-block;
-    color: #000000;
+    color: #d1d1d1;
     margin-bottom: 25px;
     @media screen and (max-width: 1024px) {
       margin-top: 25px;
