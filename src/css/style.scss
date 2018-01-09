@@ -71,6 +71,8 @@ a {
   padding: 30px 50px;
   color: #fff;
   background-color: $color-green;
+  background-image: url(http://xupt-fe.top/image/indexBackground.png);
+  background-position: 0px 500px;
   overflow: hidden;
   @media screen and (max-width: 720px) {
     padding: 25px 30px;
@@ -491,6 +493,7 @@ footer {
 ::-moz-selection {
   background: $color-gray;
 }
+
 // 打印样式
 @media print {
   .content {
@@ -511,7 +514,8 @@ footer {
   }
 
   .content .content-hd {
-    padding: 60px 50px 40px;
+    padding: 40px 50px 0px;
+    background-color: #006047;
   }
 
   .content .content-hd .title {
