@@ -1,7 +1,6 @@
 # hylerrix: 我的个人简历
 
-* 寒假版，先上线再说：http://resume.xupt-fe.top
-* 暑假版，域名备案中：http://resume.ningowood.ink/hylerrix
+* 网页版简历：开发中
 
 ***使用方式***
 
@@ -12,7 +11,11 @@
 
 > chrome 浏览器 - "打印" - 设置无边距 - 即可导出
 
-***浏览器截图***
+***PDF 版简历***
+
+[](./resume.pdf)
+
+***PNG 版简历***
 
 ![](./resume.png)
 

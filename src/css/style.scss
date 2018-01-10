@@ -506,6 +506,9 @@ footer {
   
 	.content .content-left {
 	  width: 52%;
+		// 硬编码解决打印时左边和右边不水平的 bug 问题
+    position: relative;
+		bottom: 5px;
 	}
   
 	.content .content-right {
@@ -513,7 +516,7 @@ footer {
 	}
   
 	.content .content-hd {
-	  padding: 20px 50px 20px;
+	  padding: 40px 50px 20px;
 	}
   
 	.content .content-hd .title {
@@ -556,7 +559,7 @@ footer {
 	}
   
 	.content .content-bd {
-	  padding: 25px 30px 50px;
+	  padding: 15px 30px 50px;
 	}
   
 	.content .content-bd .item-hd {
