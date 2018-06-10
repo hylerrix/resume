@@ -67,7 +67,7 @@ a {
 
 .content-hd {
   width: 100%;
-  padding: 30px 50px;
+  padding: 50px 50px;
   color: #fff;
   background-color: $color-green;
   background-image: url(http://xupt-fe.top/image/indexBackground.png);
@@ -207,7 +207,8 @@ a {
 
 .content-bd {
   width: 100%;
-  min-height: 200px;
+	min-height: 200px;
+	margin-top: 30px;
   padding: 20px 30px 50px;
   overflow: hidden;
   @media screen and (max-width: 720px) {
