@@ -17,7 +17,7 @@
 
 > Chrome - Print - More Setting - None Margins - Save
 
-## 简历库参考借鉴来源
+## Reference
 
 - [Resume | Cong Min](http://resume.congm.in/)
 - [Resume | Shaoyao·Ju](https://up.shaoyaoju.org/)
