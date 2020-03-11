@@ -1,77 +1,25 @@
-# hylerrix: 我的个人简历
+# My Resume
 
-网页版简历：开发完毕，等待部署，并分配域名
+## hylerrix PDF resume
 
-***一想到自己要实习，hylerrix 关注到了？***
+[Click Me](./resume.pdf)
 
-* 个人所得税，企业交税
-* 实习生待遇(房补餐补)，转正待遇
-* 公司创新点，发展前景、发展故事
-* 领导背景(CEO、CTO)
-* 技术架构，前端架构
-* 行业平均薪酬
-* 职业发展，股票分成
+## hylerrix PNG resume
 
-> * 薪资什么时候发放
-> * 房补餐补？住房建议？
-> * 五一能否提现？
+![Click Me](./resume.png)
 
-***这么“疯狂”找实习，hylerrix 的心态转变历程是？***
+## How to use
 
-1. 毫无准备的面试，听毕业学长说“撑死胆大的”
-2. 因准备不足和基础薄弱问题被早期大厂一面拒绝深感打击
-3. 沉寂多天复习基础、刷面试题
-4. 突然慌张地一次投递多个小公司准备练手
-5. 逐渐找到面试自信，收割毕业学长所在的公司 Offer
-6. 开始尝试投递各大互联网公司
-7. 慌张不知如何回拒绝毕业学长公司的 Offer，重新思考 Offer 意义
-8. 感悟到 offer 收多了可能尴尬，但一面二面还是得多挑战
-9. 逐渐感悟到“你不试一下，就永远不会知道自己这次错过了什么。”
-10. 抱着感悟海投各大公司，除了感悟面试经历，同时某种角度感悟互联网行业
-11. 投递太多精力疲惫，很多笔试题也不答了，准备秋招选好若干最终公司好好准备
+0. Run `yarn add`
+1. Edit `/src/index.html`
+2. Run `yarn run rebuild`
+3. Open `/index.html`
 
-***hylerrix 给自己，同时给其他找实习同学的建议？***
-
-* 真正的认识自己的性格，时刻自我反省自己能做什么、未来需要什么等
-* 提前找好方向，确定想去的公司和想走的技术路线、大公司/创业公司等
-* 大厂或者想去的公司忍住之后投，先面试别的公司攒经验
-* 认识更多的人，人脉，内推不用愁，机遇不用愁
-* 大学生的话，提前准备面试，而不是大三寒假完再说
-* 电话面试时心态平和，诚恳切语速适度，不要抢话，多引导面试官问自己掌握的
-
-***hylerrix 感悟到自己未来的路途？***
-
-* 持续关注大前端领域
-  * 包括但不限于浏览器、移动端、物联网、TV UI、AR/VR 等平台
-  * 包括但不限于 SPA、PWA、Node.JS、Web 标准、混合开发、原生开发、桌面开发等技术方向
-* 时刻关注互联网产品、互联网设计领域
-  * 包括但不限于小程序、快应用、Material Design 等
-* 时刻关注互联网技术潮流
-  * 包括但不限于区块链、容器、微服务等
-* 毕业两年达到阿里前端 P6 能力
-* 毕业五年达到阿里前端 P8 能力
-* 毕业五年足够拿到微软、苹果等外企 Offer
-
-## hylerrix 的 PDF 版简历
-
-[点我查看](./resume.pdf)
-
-## hylerrix 的 PNG 版简历
-
-![](./resume.png)
-
-## 简历库使用方式
-
-- 0、`yarn add` 或 `cnpm install` 安装依赖
-- 1、编辑 `/src/index.html` 文件
-- 2、命令行运行 `yarn run rebuild`
-- 3、打开 `/index.html` 进行预览
-
-> chrome 浏览器 - "打印" - 设置无边距 - 即可导出
+> Chrome - Print - More Setting - None Margins - Save
 
 ## 简历库参考借鉴来源
 
-- [简历 | 闵聪 - Cong Min](http://resume.congm.in/)
-- [简历 | 琚致远 - Shaoyao·琚](https://up.shaoyaoju.org/)
+- [Resume | Cong Min](http://resume.congm.in/)
+- [Resume | Shaoyao·Ju](https://up.shaoyaoju.org/)
 
-> Fork 或借鉴请注明出处： [@Cong Min](https://congm.in)
+> Fork & Learn from [@Cong Min](https://congm.in)

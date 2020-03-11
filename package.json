@@ -1,7 +1,7 @@
 {
   "name": "resume",
   "version": "1.0.0",
-  "description": "resume.congm.in",
+  "description": "",
   "main": "webpack.config.js",
   "scripts": {
     "build": "webpack -p",
@@ -12,12 +12,12 @@
     "type": "git",
     "url": "git+ssh://git@github.com/mcc108/resume.git"
   },
-  "author": "Cong Min",
-  "license": "ISC",
+  "author": "hylerrix",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/mcc108/resume/issues"
   },
-  "homepage": "http://resume.congm.in",
+  "homepage": "https://hylerrix.github.io/resume/",
   "devDependencies": {
     "compass-mixins": "^0.12.10",
     "file-loader": "^0.9.0",
