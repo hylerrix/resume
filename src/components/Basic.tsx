@@ -8,13 +8,13 @@ export const Header: React.FC = () => {
           <h1>韩亦乐<small>hylerrix</small></h1>
         </div>
         <div className="job">
-          <h2>Web 前端开发工程师</h2>
+          <h2>Web 前端开发工程师 <small>/ 北京+</small></h2>
         </div>
       </section>
       <section className="info">
         <h2>男 / 1997.10</h2>
+        <h3>本科 / 2019 年毕业 · 一年工作经验</h3>
         <h3>西安邮电大学 · 软件工程</h3>
-        <h3>本科 / 2019 年毕业</h3>
       </section>
       <section className="contact">
         <ul>
@@ -31,7 +31,7 @@ export const Header: React.FC = () => {
 export const PrintFooter = () => {
   return (
     <footer className="print-footer">
-      <a className="footer-link" href="http://resume.ningowood.ink/hylerrix" target="_blank"><i className="iconfont icon-link"></i> 网页版简历：开发中</a>
+      <a className="footer-link" href="http://resume.ningowood.ink/hylerrix" target="_blank"><i className="iconfont icon-link"></i> 网页版简历</a>
     </footer>
   )
 }
@@ -39,7 +39,7 @@ export const PrintFooter = () => {
 export const GithubFooter: React.FC = () => {
   return (
     <footer className="github-footer">
-      <a className="footer-link" href="http://resume.ningowood.ink/hylerrix" target="_blank"><i className="iconfont icon-link"></i> http://resume.ningowood.ink/hylerrix</a>
+      <a className="footer-link" href="https://github.com/hylerrix/resume" target="_blank"><i className="iconfont icon-link"></i> https://github.com/hylerrix/resume</a>
     </footer>
   )
 }

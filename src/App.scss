@@ -141,6 +141,10 @@ a {
         margin: 5px auto 0;
         padding: 10px;
       }
+
+      small {
+        font-size: 14px;
+      }
     }
   }
 
@@ -208,7 +212,6 @@ a {
 .content-bd {
   width: 100%;
   min-height: 200px;
-  margin-top: 30px;
   padding: 20px 30px 50px;
   overflow: hidden;
   @media screen and (max-width: 720px) {
@@ -279,6 +282,13 @@ a {
     background-color: #eee;
   }
 
+  .section-sub-title {
+    font-size: 11px;
+    color: #444;
+    text-align: center;
+    margin-top: 10px;
+  }
+
   .section-list {
     padding: 10px 0 5px;
   }
@@ -297,7 +307,7 @@ a {
     .item-time {
       display: inline-block;
       float: left;
-      width: 25%;
+      width: 32%;
       @media screen and (max-width: 720px) {
         width: 100%;
         margin-bottom: 5px;
@@ -383,7 +393,7 @@ a {
 
   .prize {
     .item-hd {
-      padding: 12px 0 0;
+      padding: 6px 0 0;
     }
 
     .item-time {
@@ -507,9 +517,6 @@ footer {
 
   .content .content-left {
     width: 52%;
-    // 硬编码解决打印时左边和右边不水平的 bug 问题
-    position: relative;
-    bottom: 5px;
   }
 
   .content .content-right {
@@ -560,7 +567,7 @@ footer {
   }
 
   .content .content-bd {
-    padding: 15px 30px 50px;
+    padding: 25px 30px 50px;
   }
 
   .content .content-bd .item-hd {
@@ -577,7 +584,7 @@ footer {
   }
 
   .content .content-bd .prize .item-hd {
-    padding: 11px 0 5px;
+    padding: 6px 0 5px;
   }
 
   .content .content-bd .practice .item-time {

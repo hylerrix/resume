@@ -8,23 +8,25 @@ import { Left3 } from './components/Left3'
 import { Left4 } from './components/Left4'
 import { Right1 } from './components/Right1'
 import { Right2 } from './components/Right2'
+import { Right3 } from './components/Right3'
 
 function App() {
   return (
     <div>
-      <a className="pdf" href="./resume.pdf"><i className="iconfont icon-pdf"></i>PDF简历</a>
-      <p className="last-modified">最后更新时间：2020年03月12日</p>
+      <a className="pdf" href="http://qiniu.ningo.cloud/resume.pdf"><i className="iconfont icon-pdf"></i>PDF 简历</a>
+      <p className="last-modified">最后更新时间：2020 年 03 月 12 日</p>
       <div className="content">
         <Header />
         <div className="content-bd">
           <div className="content-left">
             <Left1 />
-            <Left2 />
-            <Left3 />
-            <Left4 />
+            <Right1 />
+            <Right3 />
+            {/* <Left4 /> */}
           </div>
           <div className="content-right">
-            <Right1 />
+            <Left2 />
+            <Left3 />
             <Right2 />
           </div>
         </div>
