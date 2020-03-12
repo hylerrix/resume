@@ -1,12 +1,11 @@
-# Resume of me([@hylerrix](https://github.com/hylerrix))
+# Resume | Hylerrix Han
 
-## PDF version
+# About Me
 
-...To be continued
+![](http://qiniu.ningo.cloud/resume.png)
 
-## PNG version
-
-...To be continued
+* [PDF version](http://qiniu.ningo.cloud/resume.pdf)
+* [PNG version](http://qiniu.ningo.cloud/resume.png)
 
 ## How to use
 
