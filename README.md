@@ -1,25 +1,21 @@
-# My Resume
+# Resume of me([@hylerrix](https://github.com/hylerrix))
 
-## hylerrix PDF resume
+## PDF version
 
-[Click Me](./resume.pdf)
+...To be continued
 
-## hylerrix PNG resume
+## PNG version
 
-![Click Me](./resume.png)
+...To be continued
 
 ## How to use
 
 0. Run `yarn add`
-1. Edit `/src/index.html`
-2. Run `yarn run rebuild`
-3. Open `/index.html`
+2. Run `yarn run start`
+1. Edit `src`
 
 > Chrome - Print - More Setting - None Margins - Save
 
 ## Reference
-
-- [Resume | Cong Min](http://resume.congm.in/)
-- [Resume | Shaoyao·Ju](https://up.shaoyaoju.org/)
 
 > Fork & Learn from [@Cong Min](https://congm.in)
