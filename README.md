@@ -10,8 +10,9 @@
 ## How to use
 
 0. Run `yarn add`
-2. Run `yarn run start`
-1. Edit `src`
+1. Run `yarn run start`
+2. Edit `src`
+3. Deploy `npm run deploy`
 
 > Chrome - Print - More Setting - None Margins - Save
 
