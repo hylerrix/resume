@@ -20,7 +20,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -38,6 +40,7 @@
     ]
   },
   "devDependencies": {
-    "compass-mixins": "^0.12.10"
+    "compass-mixins": "^0.12.10",
+    "gh-pages": "^2.2.0"
   }
 }
