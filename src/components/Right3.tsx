@@ -26,7 +26,7 @@ export const Right3: React.FC = () => {
           <li>
             <p className="section-content">
               <i className="iconfont icon-dot"></i>
-              掌握<strong>Node.js</strong>为主的后端开发基础技能，业余围绕<strong>Nest.js</strong>框架对<strong>TypeORM</strong>、<strong>GraphQL</strong>、<strong>MongoDB</strong>等技术进行过一定的业务实践。
+              掌握<strong>Node.js</strong>为主的后端开发基础技能，业余围绕<strong>Nest.js</strong>框架对<strong>TypeORM</strong>、<strong>GraphQL</strong>、<strong>MongoDB</strong>等技术进行过一定的 Demo 实践。目前重点关注并建设着 <strong>Deno.ts</strong> 开源生态。
             </p>
           </li>
           <li>

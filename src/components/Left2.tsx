@@ -25,7 +25,7 @@ export const Left2: React.FC = () => {
         <div className="item">
           <header className="item-hd">
             <span className="item-time">2016.06 ~ 2018.12</span>
-            <a className="btn item-more" href="https://www.freecodecamp.org/" target="_blank">开源社区</a>
+            <a className="btn item-more" href="https://chinese.freecodecamp.org/news/" target="_blank">开源社区</a>
             <h3 className="item-name">freeCodeCamp 西安</h3>
           </header>
           <div className="item-bd">
@@ -43,8 +43,8 @@ export const Left2: React.FC = () => {
           </header>
           <div className="item-bd">
             <p className="section-content">
-              <strong>前端组成员</strong>
-              全程参与思沃学院的暑期特训营。对<strong>敏捷开发</strong>、<strong>编程教育</strong>、<strong>技术公益</strong>等有较深的感悟，影响了自身的发展方向。
+              <strong>前端学员</strong>
+              全程参与思沃学院暑期特训营，对<strong>敏捷开发</strong>、<strong>编程教育</strong>、<strong>技术公益</strong>等有较深的感悟，影响了自身的职业发展方向。
             </p>
           </div>
         </div>

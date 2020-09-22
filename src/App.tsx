@@ -12,8 +12,8 @@ import { Right3 } from './components/Right3'
 function App() {
   return (
     <div>
-      <a className="pdf" href="http://qiniu.ningo.cloud/resume.pdf"><i className="iconfont icon-pdf"></i>PDF 简历</a>
-      <p className="last-modified">最后更新时间：2020 年 03 月 12 日</p>
+      <a className="pdf" href="http://qiniu.ningo.cloud/resume.pdf"><i className="iconfont icon-pdf"></i> PDF 简历</a>
+      <p className="last-modified">最后更新时间：2020 年 09 月 22 日 - 版本号：v0.3.0</p>
       <div className="content">
         <Header />
         <div className="content-bd">

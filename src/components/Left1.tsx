@@ -18,7 +18,9 @@ export const Left1: React.FC = () => {
           <div className="item-bd">
             <p className="section-content">
               <strong>基础平台部-系统部</strong>
-              负责滴滴监控平台前端项目的工程实践，技术栈涵盖但不止于 React.js、Vue.js、TypeScript、Vuetify、Node.js 等。其中，前十四个月是实习期。
+              在平台开发组中，参与过多个内部平台的前端工程实践；包括独立完成裸金属管控平台的前端开发和部署，成功推进数千台裸金属物理机的上云改造任务。技术栈涵盖但不止于
+              <strong>React</strong>、<strong>Vue</strong>、<strong>TS</strong>、<strong>AntD</strong>、<strong>Vuetify</strong>、
+              <strong>Node.js</strong> 等。前十四个月是实习期。
             </p>
           </div>
         </div>

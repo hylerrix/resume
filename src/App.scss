@@ -2,6 +2,7 @@
 @import "../node_modules/compass-mixins/lib/compass/css3";
 $color-gray: #d1d1d1;
 $color-green: #006047;
+$color-orange: #DA6437;
 $font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", sans-serif;
 
 .kill-ie {
@@ -69,9 +70,9 @@ a {
   width: 100%;
   padding: 50px 50px;
   color: #fff;
-  background-color: $color-green;
+  background-color: $color-orange;
   background-image: url('./assets/header.png');
-  background-position: 0px 500px;
+  // background-position: 0px 500px;
   overflow: hidden;
   @media screen and (max-width: 720px) {
     padding: 25px 30px;
@@ -79,7 +80,8 @@ a {
 
   .title {
     width: 100%;
-    border-bottom: 2px solid $color-green;
+    // border-bottom: 2px solid $color-green;
+    border-bottom: 2px solid white;
     font-size: 52px;
     font-weight: 300;
     overflow: hidden;
@@ -137,7 +139,7 @@ a {
       display: inline-block;
       font-size: 24px;
       @media screen and (max-width: 720px) {
-        border-top: 1px solid darken($color-green, 2%);
+        border-top: 1px solid darken($color-orange, 2%);
         margin: 5px auto 0;
         padding: 10px;
       }
@@ -152,6 +154,7 @@ a {
     float: left;
     padding-left: 5px;
     line-height: 30px;
+    margin-top: 20px; // 临时，防止右侧内容太多
 
     h2 {
       margin: 8px 0 4px;
@@ -301,7 +304,7 @@ a {
     font-weight: 500;
 
     .iconfont {
-      color: $color-green;
+      color: $color-orange;
     }
 
     .item-time {
@@ -341,7 +344,7 @@ a {
     line-height: 1.7rem;
 
     .iconfont {
-      color: $color-green;
+      color: $color-orange;
     }
 
     em {
@@ -408,9 +411,9 @@ a {
 .btn {
   display: inline-block;
   padding: 0 5px;
-  border: 1px solid $color-green;
+  border: 1px solid #DA6537; // $color-green;
   border-radius: 3px;
-  color: $color-green;
+  color: #DA6537; // $color-green;
   font-family: Menlo, $font-family;
   font-size: 14px;
   line-height: 18px;
@@ -418,7 +421,7 @@ a {
 
   &:hover {
     color: #fff;
-    background-color: $color-green;
+    background-color: $color-orange;
   }
 }
 
@@ -434,7 +437,7 @@ a {
   color: #fff;
   font-size: 16px;
   line-height: 26px;
-  background-color: $color-green;
+  background-color: $color-orange;
   @media screen and (max-width: 1246px) {
     left: auto;
     right: 8px;

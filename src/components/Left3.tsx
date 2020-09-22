@@ -25,6 +25,13 @@ export const Left3: React.FC = () => {
         </div>
         <div className="item">
           <header className="item-hd">
+            <span className="item-time">2017.06</span>
+            <span className="item-more">重在参与</span>
+            <h3 className="item-name">中国软件杯 - 借阅伴侣</h3>
+          </header>
+        </div>
+        <div className="item">
+          <header className="item-hd">
             <span className="item-time">2017.05</span>
             <span className="item-more">荣誉证书</span>
             <h3 className="item-name">DevRelCon - 中国首届开发者关系大会</h3>

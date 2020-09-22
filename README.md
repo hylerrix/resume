@@ -5,7 +5,6 @@
 ![](http://qiniu.ningo.cloud/resume.png)
 
 * [PDF version](http://qiniu.ningo.cloud/resume.pdf)
-* [PNG version](http://qiniu.ningo.cloud/resume.png)
 
 ## How to use
 
