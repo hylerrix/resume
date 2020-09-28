@@ -2,7 +2,7 @@
 
 # About Me
 
-![](http://qiniu.ningo.cloud/resume.png)
+![](http://qiniu.ningo.cloud/hylerrix/resume.png)
 
 * [PDF version](http://qiniu.ningo.cloud/resume.pdf)
 
