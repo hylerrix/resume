@@ -2,30 +2,30 @@ import React from 'react'
 import './App.scss'
 import './assets/icon/iconfont.css'
 import { Header, PrintFooter, GithubFooter } from './components/Basic'
-import { Left1 } from './components/Left1'
-import { Left2 } from './components/Left2'
-import { Left3 } from './components/Left3'
-import { Right1 } from './components/Right1'
-import { Right2 } from './components/Right2'
-import { Right3 } from './components/Right3'
+import { CareerExperience } from './components/career-experience'
+import { UniversityActivity } from './components/university-activity'
+import { UniversityAward } from './components/university-award'
+import { ImportantProject } from './components/important-project'
+import { OpenSource } from './components/open-source'
+import { ProfessionalSkill } from './components/professional-skill'
 
 function App() {
   return (
     <div>
-      <a className="pdf" href="http://qiniu.ningo.cloud/resume.pdf"><i className="iconfont icon-pdf"></i> PDF 简历</a>
-      <p className="last-modified">最后更新时间：2020 年 09 月 22 日 - 版本号：v0.3.0</p>
+      <a className="pdf" href="http://qiniu.ningo.cloud/hylerrix/resume.pdf"><i className="iconfont icon-pdf"></i> PDF 简历</a>
+      <p className="last-modified">最后更新时间：2021 年 02 月 23 日 - 版本号：v0.4.0</p>
       <div className="content">
         <Header />
         <div className="content-bd">
           <div className="content-left">
-            <Left1 />
-            <Right1 />
-            <Right3 />
+            <CareerExperience />
+            <ImportantProject />
+            <UniversityAward />
           </div>
           <div className="content-right">
-            <Left2 />
-            <Left3 />
-            <Right2 />
+            <ProfessionalSkill />
+            <UniversityActivity />
+            <OpenSource />
           </div>
         </div>
         <PrintFooter />

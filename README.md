@@ -4,7 +4,7 @@
 
 ![](http://qiniu.ningo.cloud/hylerrix/resume.png)
 
-* [PDF version](http://qiniu.ningo.cloud/resume.pdf)
+* [PDF version](http://qiniu.ningo.cloud/hylerrix/resume.pdf)
 
 ## How to use
 
