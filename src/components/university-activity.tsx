@@ -18,7 +18,8 @@ export const UniversityActivity: React.FC = () => {
           <div className="item-bd">
             <p className="section-content">
               <strong>前端组组长</strong>
-              负责实验室前端项目的研发、维护及性能优化。还负责了实验室内部的人事调剂与项目分配，并参与了实验室日常技术分享、周年纳新筛选与不定期交流培训。参与过 ThoughtWorks 暑期特训营，坚定了在 JavaScript 大前端领域的发展方向。
+              负责实验室前端项目的研发、维护及性能优化。还负责了实验室内部的人事调剂与项目分配，并参与了实验室日常技术分享、周年纳新筛选与不定期交流培训。
+              大一暑假参与的 <strong>ThoughtWorks 暑期特训营</strong>，坚定了在 JavaScript 大前端领域的发展方向。
             </p>
           </div>
         </div>
@@ -35,19 +36,6 @@ export const UniversityActivity: React.FC = () => {
             </p>
           </div>
         </div>
-        {/* <div className="item">
-          <header className="item-hd">
-            <span className="item-time">2016.06 ~ 2017.06</span>
-            <a className="btn item-more" href="https://school.thoughtworks.cn/" target="_blank">校实验室</a>
-            <h3 className="item-name">ThoughtWorks 联合创新实验室</h3>
-          </header>
-          <div className="item-bd">
-            <p className="section-content">
-              <strong>前端学员</strong>
-              全程参与暑期特训营，对<strong>JavaScript 全栈开发</strong>、<strong>敏捷开发</strong>、<strong>编程教育</strong>等有较深的感悟，让自己开始步入大前端领域。
-            </p>
-          </div>
-        </div> */}
       </div>
     </section>
   )

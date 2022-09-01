@@ -3,6 +3,7 @@
 $color-gray: #d1d1d1;
 $color-green: #006047;
 $color-orange: #DA6437;
+$color-blue: #18569c;
 $font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", sans-serif;
 
 .kill-ie {
@@ -68,11 +69,12 @@ a {
 
 .content-hd {
   width: 100%;
-  padding: 50px 50px;
+  padding: 20px;
   color: #fff;
   background-color: $color-orange;
-  background-image: url('./assets/header.png');
-  // background-position: 0px 500px;
+  background-image: url('./assets/header.webp');
+   //background-position: 0px 150px;
+  background-size: cover;
   overflow: hidden;
   @media screen and (max-width: 720px) {
     padding: 25px 30px;
@@ -215,7 +217,7 @@ a {
 .content-bd {
   width: 100%;
   min-height: 200px;
-  padding: 20px 30px 50px;
+  padding: 0px 10px;
   overflow: hidden;
   @media screen and (max-width: 720px) {
     padding: 20px 20px 50px;
@@ -239,7 +241,7 @@ a {
 
   section {
     overflow: hidden;
-    padding: 10px 15px;
+    padding: 0px 8px;
   }
 
   .section-hd {
@@ -411,9 +413,9 @@ a {
 .btn {
   display: inline-block;
   padding: 0 5px;
-  border: 1px solid #DA6537; // $color-green;
+  border: 1px solid $color-blue;
   border-radius: 3px;
-  color: #DA6537; // $color-green;
+  color: $color-blue;
   font-family: Menlo, $font-family;
   font-size: 14px;
   line-height: 18px;
@@ -421,7 +423,7 @@ a {
 
   &:hover {
     color: #fff;
-    background-color: $color-orange;
+    background-color: $color-blue;
   }
 }
 
@@ -437,7 +439,7 @@ a {
   color: #fff;
   font-size: 16px;
   line-height: 26px;
-  background-color: $color-orange;
+  background-color: $color-blue;
   @media screen and (max-width: 1246px) {
     left: auto;
     right: 8px;
@@ -527,7 +529,7 @@ footer {
   }
 
   .content .content-hd {
-    padding: 40px 50px 20px;
+    padding: 20px;
   }
 
   .content .content-hd .title {
@@ -570,7 +572,7 @@ footer {
   }
 
   .content .content-bd {
-    padding: 25px 30px 50px;
+    padding: 0 10px;
   }
 
   .content .content-bd .item-hd {

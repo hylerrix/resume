@@ -8,6 +8,9 @@ export const ProfessionalSkill: React.FC = () => {
         <h2 className="section-title">专业技能</h2>
         <span className="section-title-r"></span>
       </header>
+      <div className="section-sub-title">
+        Github: A+, Follower: 410+, Total Commit: 470+, Total PR: 40+, Total Issues: 130+
+      </div>
       <div className="section-bd">
         <ul className="section-list">
           <li>
@@ -15,7 +18,7 @@ export const ProfessionalSkill: React.FC = () => {
               <i className="iconfont icon-dot"></i>
               掌握 Web 前端开发基本技能，熟悉<strong>ECMAScript 基本特性</strong>、<strong>CSS 主流布局模型</strong>、
               <strong>HTML 标准规范</strong>、<strong>浏览器工作原理</strong>和<strong>浏览器兼容性处理</strong>等，
-              注重<strong>代码可维护性</strong>，有<strong>2 年</strong>的大前端开发经验。
+              注重<strong>代码可维护性</strong>，有<strong>3 年</strong>的大前端开发经验。
               掌握简单的<strong>产品原型设计</strong>技巧，懂些<strong>设计</strong>，重视<strong>用户体验</strong>。
             </p>
           </li>
@@ -31,13 +34,13 @@ export const ProfessionalSkill: React.FC = () => {
           <li>
             <p className="section-content">
               <i className="iconfont icon-dot"></i>
-              了解<strong>Node.js</strong>为主的后端开发基础技能，业余围绕<strong>Nest.js</strong>对<strong>TypeORM</strong>、<strong>GraphQL</strong>、<strong>MongoDB</strong>等技术写过一些 Demo。
+              了解<strong>Node.js</strong>为主的后端开发基础技能，围绕公司 <strong>Koa</strong> 生态写过简单的接口，目前参与集团 <strong>DNode</strong> 生态的共建。
             </p>
           </li>
           <li>
             <p className="section-content">
               <i className="iconfont icon-dot"></i>
-              熟练使用<strong>Git</strong>进行版本控制和代码托管、<strong>Markdown</strong>进行文档编写，并以<strong>Mac OS</strong>、<strong>Linux</strong>、<strong>VS Code</strong>、<strong>Postman</strong>等作为日常开发环境进行工作，熟悉开发调试工具的使用。
+              熟练使用<strong>Git</strong>进行版本控制和代码托管、<strong>Markdown</strong>进行文档编写，并以<strong>Mac OS</strong>、<strong>Linux</strong>、<strong>VS Code</strong>、<strong>Postman</strong>、<strong>Burp Suit</strong> 等作为日常开发环境进行工作，熟悉开发调试工具的使用。
             </p>
           </li>
           <li>

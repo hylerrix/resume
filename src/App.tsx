@@ -13,19 +13,19 @@ function App() {
   return (
     <div>
       <a className="pdf" href="http://qiniu.ningo.cloud/hylerrix/resume.pdf"><i className="iconfont icon-pdf"></i> PDF 简历</a>
-      <p className="last-modified">最后更新时间：2021 年 02 月 23 日 - 版本号：v0.4.0</p>
+      <p className="last-modified">最后更新时间：2022 年 09 月 01 日 - 版本号：v0.5.0</p>
       <div className="content">
         <Header />
         <div className="content-bd">
           <div className="content-left">
             <CareerExperience />
             <ImportantProject />
-            <UniversityAward />
           </div>
           <div className="content-right">
             <ProfessionalSkill />
             <UniversityActivity />
-            <OpenSource />
+            <UniversityAward />
+            {/*<OpenSource />*/}
           </div>
         </div>
         <PrintFooter />

@@ -13,7 +13,7 @@ export const Header: React.FC = () => {
       </section>
       <section className="info">
         <h2>男 / 1997.10</h2>
-        <h3>本科 / 2019 年毕业 · 两年以上工作经验</h3>
+        <h3>本科 / 2019 年毕业 · 三年以上工作经验</h3>
         <h3>西安邮电大学 · 软件工程</h3>
       </section>
       <section className="contact">

@@ -8,6 +8,8 @@
 
 ## How to use
 
+> Node v12
+
 0. Run `yarn add`
 1. Run `yarn run start`
 2. Edit `src`
@@ -17,4 +19,4 @@
 
 ## Reference
 
-> Fork & Learn from [@Cong Min](https://congm.in)
+> Fork & Learn from [@Cong Min](https://resume.congm.in/)
