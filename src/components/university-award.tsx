@@ -5,13 +5,20 @@ export const UniversityAward: React.FC = () => {
     <section className="prize">
       <header className="section-hd">
         <span className="section-title-l"></span>
-        <h2 className="section-title">大学荣誉</h2>
+        <h2 className="section-title">活动荣誉</h2>
         <span className="section-title-r"></span>
       </header>
       <div className="section-sub-title">
-        从零建设过 freeCodeCamp 西安前端社区，运营了诸多次技术分享活动
+        从零建设过 freeCodeCamp 西安前端社区，全国社区联动，运营过诸多技术分享活动
       </div>
       <div className="section-bd">
+        <div className="item">
+          <header className="item-hd">
+            <span className="item-time">2023.06</span>
+            <span className="item-more">重在参与</span>
+            <h3 className="item-name">2023 奇绩创坛秋季创业营</h3>
+          </header>
+        </div>
         <div className="item">
           <header className="item-hd">
             <span className="item-time">2018.09</span>

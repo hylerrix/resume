@@ -11,7 +11,25 @@ export const ImportantProject: React.FC = () => {
       <div className="section-bd">
         <div className="item">
           <header className="item-hd">
-            <span className="item-time">2020.11 ~ 至今</span>
+            <span className="item-time">2022.10 ~ 2023.至今</span>
+            <a className="btn item-more" href="http://www.gogobyte.com/" target="_blank">犬安科技</a>
+            <h3 className="item-name">御织 & Threat Go </h3>
+          </header>
+          <div className="item-bd">
+            <p className="section-content">
+              御织平台通过 <strong>X6 画布</strong>和基于 <strong>Formily</strong> 中 <strong>JSON Schema</strong> 风格的低代码表单方案
+              来将 Tara 分析中的<strong>“系统建模”</strong>、<strong>“攻击树建模”</strong> 等核心阶段组织起来，输出符合法规的报告。
+              <strong>“阶段底部通用表格”</strong>、<strong>“元素编辑通用面板”</strong>都设计有统一的 <strong>JSON Schema 低代码</strong> 入口方案。
+              重点解决过为 <strong>@formily/antd</strong> 库中的 Table 组件开发定制化的
+              <strong>单元格编辑</strong>、<strong>列宽拖拽</strong>、<strong>排序拖拽</strong>的功能。
+              正在着手提交<strong>开源 PR</strong> 给 Formily。以及解决了更多的基于 <strong>Proxy API</strong> 的 Fomily 联动问题。
+              <strong>Threat Go</strong> 基于开源项目 <strong>chaiNNer</strong> 搭建，社区中深度交流过给 <strong>EventSource API</strong> 添加自定义头部的问题。
+            </p>
+          </div>
+        </div>
+        <div className="item">
+          <header className="item-hd">
+            <span className="item-time">2020.11 ~ 2022.10</span>
             <a className="btn item-more" href="https://www.didiglobal.com/" target="_blank">滴滴出行</a>
             <h3 className="item-name">CMP (云管平台)</h3>
           </header>
@@ -33,35 +51,20 @@ export const ImportantProject: React.FC = () => {
         </div>
         <div className="item">
           <header className="item-hd">
-            <span className="item-time">2020.06 ~ 至今</span>
+            <span className="item-time">2020.06 ~ 2022.10</span>
             <a className="btn item-more" href="https://www.didiglobal.com/" target="_blank">滴滴出行</a>
             <h3 className="item-name">CMDB</h3>
           </header>
           <div className="item-bd">
             <p className="section-content">
               该平台全量支撑滴滴所有业务，建设多地数据中心集群和骨干网络，具备数十万台服务器规模的管理能力。
-              新版前端围绕 <strong>Single SPA</strong> 与 <strong>React</strong> 生态从零搭建微前端架构体系，
+              新版前端围绕 <strong>Single SPA</strong> 与 <strong>React</strong> 生态从零搭建微前端全链路架构体系，
               拆分出 <strong>服务器控制台</strong> | <strong>负载均衡</strong> | <strong>域名管理</strong>
                 | <strong>CMDB</strong> ｜ <strong>IT 资产管理</strong> | <strong>重装报障</strong>
                 | <strong>报表</strong> | <strong>工单</strong> 等十余个子应用。
-              独立设计从开发到部署的全链路规范，提供 <strong>沙箱隔离</strong>、<strong>权限设计</strong>、
-                <strong>通信机制</strong>、<strong>路由系统</strong>、<strong>资源共享</strong>
-                等微前端挑战的统一解决方案，对前端架构有了更广泛的实践。
-            </p>
-          </div>
-        </div>
-        <div className="item">
-          <header className="item-hd">
-            <span className="item-time">2018.04 ~ 2021.08</span>
-            <a className="btn item-more" href="https://www.didiglobal.com/" target="_blank">滴滴出行</a>
-            <h3 className="item-name">BMS & Monitor & ... </h3>
-          </header>
-          <div className="item-bd">
-            <p className="section-content">
-              <strong>BMS</strong> 为实现公司底层网络的云化、将自有业务和滴滴云之间的网络物理隔离转变为逻辑隔离，以灵活分配内外部业务、节省总体成本而建。
-              <strong>Monitor</strong> 涵盖网络基础设施、机房动环、服务器硬件以及系统与服务四大维度的全链路监控。
-              前端重点围绕 <strong>React</strong> 和<strong>Vue</strong> 生态建设，重视封装与复用并编写了大量<strong>React Hooks</strong> 风格的函数组件。
-              熟练掌握了<strong>TypeScript</strong>、<strong>React Router</strong>、<strong>Redux</strong>、<strong>Axios</strong>、<strong>Sass</strong>、<strong>ECharts</strong> 等技术。
+              提供 <strong>沙箱隔离</strong>、<strong>权限设计</strong>、<strong>通信机制</strong>、
+                <strong>路由系统</strong>、<strong>资源共享</strong>、<strong>线上集群</strong>
+                等微前端挑战的统一解决方案。
             </p>
           </div>
         </div>
