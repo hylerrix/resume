@@ -2,13 +2,13 @@
 
 # About Me
 
-![](http://qiniu.ningo.cloud/hylerrix/resume.png)
+![](./resume.png)
 
-* [PDF version](http://qiniu.ningo.cloud/hylerrix/resume.pdf)
+* [PDF version](./resume.pdf)
 
 ## How to use
 
-> Node v12
+> Node v20.1.0
 
 0. Run `yarn add`
 1. Run `yarn run start`

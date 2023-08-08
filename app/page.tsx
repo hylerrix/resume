@@ -1,15 +1,14 @@
-import React from 'react'
-import './App.scss'
-import './assets/icon/iconfont.css'
-import { Header, PrintFooter, GithubFooter } from './components/Basic'
-import { CareerExperience } from './components/career-experience'
-import { UniversityActivity } from './components/university-activity'
-import { UniversityAward } from './components/university-award'
-import { ImportantProject } from './components/important-project'
-import { OpenSource } from './components/open-source'
-import { ProfessionalSkill } from './components/professional-skill'
+import { GithubFooter, Header } from '@/components/Basic'
+import { CareerExperience } from '@/components/career-experience'
+import { ImportantProject } from '@/components/important-project'
+import { ProfessionalSkill } from '@/components/professional-skill'
+import { UniversityActivity } from '@/components/university-activity'
+import { UniversityAward } from '@/components/university-award'
 
-function App() {
+import 'styles/globals.css'
+import 'public/assets/icon/iconfont.css'
+
+export default function Home() {
   return (
     <div>
       {/* <a className="pdf" href="http://qiniu.ningo.cloud/hylerrix/resume.pdf"><i className="iconfont icon-pdf"></i> PDF 简历</a> */}
@@ -34,5 +33,3 @@ function App() {
     </div>
   )
 }
-
-export default App
