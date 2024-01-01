@@ -11,7 +11,14 @@ export const UniversityAward: React.FC = () => {
       <div className="section-sub-title">
         从零建设过 freeCodeCamp 西安前端社区，全国社区联动，运营过诸多技术分享活动
       </div>
-      <div className="section-bd">
+      <div className="section-bd" style={{ marginTop: 4 }}>
+        <div className="item">
+          <header className="item-hd">
+            <span className="item-time">2024.XX</span>
+            <span className="item-more">持续规划</span>
+            <h3 className="item-name">2024 西安 Web 前端交流大会</h3>
+          </header>
+        </div>
         <div className="item">
           <header className="item-hd">
             <span className="item-time">2023.06</span>
@@ -22,8 +29,8 @@ export const UniversityAward: React.FC = () => {
         <div className="item">
           <header className="item-hd">
             <span className="item-time">2018.09</span>
-            <span className="item-more">社区运营</span>
-            <h3 className="item-name">2018 西安 Web 前端交流大会 & Java 大会</h3>
+            <span className="item-more">核心组织</span>
+            <h3 className="item-name">2018 西安 Web 前端交流大会, Java 大会</h3>
           </header>
         </div>
         <div className="item">

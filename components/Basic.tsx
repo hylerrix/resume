@@ -8,7 +8,7 @@ export const Header: React.FC = () => {
           <h1>韩亦乐<small>hylerrix han</small></h1>
         </div>
         <div className="job">
-          <h2>高级 Web 前端开发工程师 <small>/ 北京/深圳+</small></h2>
+          <h2>资深 Web 前端开发工程师 <small>/ 北京+</small></h2>
         </div>
       </section>
       <section className="info">

@@ -18,11 +18,11 @@ export const ImportantProject: React.FC = () => {
           <div className="item-bd">
             <p className="section-content">
               御织平台通过 <strong>X6 画布</strong>和基于 <strong>Formily</strong> 中 <strong>JSON Schema</strong> 风格的低代码表单方案
-              来将 Tara 分析中的<strong>“系统建模”</strong>、<strong>“攻击树建模”</strong> 等核心阶段组织起来，输出符合法规的报告。
+              来将 Tara 分析中的<strong>“系统建模”</strong>、<strong>“攻击树建模”</strong> 等核心阶段组织起来，输出符合法规的安全报告。
               <strong>“阶段底部通用表格”</strong>、<strong>“元素编辑通用面板”</strong>都设计有统一的 <strong>JSON Schema 低代码</strong> 入口方案。
-              重点解决过为 <strong>@formily/antd</strong> 库中的 Table 组件开发定制化的
-              <strong>单元格编辑</strong>、<strong>列宽拖拽</strong>、<strong>排序拖拽</strong>的功能。
-              正在着手提交<strong>开源 PR</strong> 给 Formily。以及解决了更多的基于 <strong>Proxy API</strong> 的 Fomily 联动问题。
+              重点维护核心低代码引擎，解决过为 <strong>@formily/antd</strong> 库中的 Table 组件开发定制化的
+              <strong>单元格编辑</strong>、<strong>列宽拖拽</strong>、<strong>排序拖拽</strong>等功能。
+              持续升级画布引擎架构，迈向 2024 协同时代。以及解决了更多的基于 <strong>Proxy API</strong> 的 Fomily 双向联动问题。
               <strong>Threat Go</strong> 基于开源项目 <strong>chaiNNer</strong> 搭建，社区中深度交流过给 <strong>EventSource API</strong> 添加自定义头部的问题。
             </p>
           </div>
@@ -62,9 +62,7 @@ export const ImportantProject: React.FC = () => {
               拆分出 <strong>服务器控制台</strong> | <strong>负载均衡</strong> | <strong>域名管理</strong>
                 | <strong>CMDB</strong> ｜ <strong>IT 资产管理</strong> | <strong>重装报障</strong>
                 | <strong>报表</strong> | <strong>工单</strong> 等十余个子应用。
-              提供 <strong>沙箱隔离</strong>、<strong>权限设计</strong>、<strong>通信机制</strong>、
-                <strong>路由系统</strong>、<strong>资源共享</strong>、<strong>线上集群</strong>
-                等微前端挑战的统一解决方案。
+              提供诸多微前端全链路挑战的统一解决方案。
             </p>
           </div>
         </div>
