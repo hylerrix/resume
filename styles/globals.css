@@ -497,7 +497,8 @@ a {
 
 .content-bd .item-hd .item-more {
   float: right;
-  margin-left: 5px
+  margin-left: 5px;
+  padding-top: 2px;
 }
 
 @media screen and (max-width: 720px) {

@@ -16,7 +16,7 @@ export const UniversityAward: React.FC = () => {
           <header className="item-hd">
             <span className="item-time">2024.XX</span>
             <span className="item-more">持续规划</span>
-            <h3 className="item-name">2024 西安 Web 前端交流大会</h3>
+            <h3 className="item-name">2024 西安 Web 前端交流大会 (AIGC)</h3>
           </header>
         </div>
         <div className="item">

@@ -1,10 +1,10 @@
 # Resume | Hylerrix Han <img align="right" alt="Profile Hits" src="https://komarev.com/ghpvc/?username=hylerrix-resume&style=flat-square">
 
-<!-- # About Me
+# About Me
 
 ![](./resume.png)
 
-* [PDF version](./resume.pdf) -->
+* [PDF version](./resume.pdf)
 
 ## How to use
 
